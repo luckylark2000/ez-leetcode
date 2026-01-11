@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "types": ["bun-types"], // 添加这个
+    "module": "esnext",
+    "target": "esnext"
+  }
+}
