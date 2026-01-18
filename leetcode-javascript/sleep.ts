@@ -1,3 +1,5 @@
+// 2621，睡眠函数。https://leetcode.cn/problems/sleep/description/
+
 async function sleep(millis: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, millis));
 }
